@@ -39,18 +39,19 @@ export default function Distinctions() {
                 </p>
 
                 <p className="mt-1 text-sm text-gray-500 dark:text-white/60">
-                  {item.description}{" "}
-                  {item.link && (
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline text-blue-600 dark:text-blue-400"
-                    >
-                      View
-                    </a>
-                  )}
+                  {item.description}
                 </p>
+
+                {"link" in item && item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 block text-sm underline text-blue-600 dark:text-blue-400"
+                  >
+                    View publication
+                  </a>
+                )}
 
                 <span className="mt-2 block text-xs text-gray-400">
                   {item.date}
