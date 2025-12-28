@@ -5,9 +5,6 @@ This project is a **personal portfolio website** built with **Next.js (App Route
 It is **based on the original portfolio template and tutorial created by ByteGrad**.  
 All credits for the initial design, structure, and tutorial go to the original author.
 
-👉 Original tutorial video:  
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
-
 ---
 
 ## About this project
@@ -45,7 +42,6 @@ Modifications include:
    npm install
    ```
 2. Run the development server:
-
   ```bash
   npm run dev
-    ```
+  ```
