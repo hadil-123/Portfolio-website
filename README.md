@@ -1,30 +1,51 @@
+# Portfolio Website (Next.js)
+
+This project is a **personal portfolio website** built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
+
+It is **based on the original portfolio template and tutorial created by ByteGrad**.  
+All credits for the initial design, structure, and tutorial go to the original author.
+
+👉 Original tutorial video:  
 [![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+---
 
-## What you will learn
+## About this project
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+This repository contains a **customized and extended version** of the original ByteGrad portfolio project.  
+The content, sections, and data have been adapted to reflect **my own academic background, software engineering experience, and research work**.
 
-## Important
+Modifications include:
+- Personalized content (About, Experience, Skills, Distinctions)
+- Added academic distinctions and publications
+- Custom styling and layout adjustments
+- Updated navigation and sections
+- Deployment-ready configuration
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+---
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## Technologies used
 
-## Setup
+- **Next.js (App Router)**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Context API**
+- **Custom React hooks**
+- **Light & Dark mode**
+- **Responsive design**
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+---
+
+## Setup & Development
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+
+  ```bash
+  npm run dev
+    ```
