@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
   <Image
-  src="/me.jpg"
+  src="/image3.png"
   alt="Hadil Eltaif portrait"
   width={250}
   height={250}
